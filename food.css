@@ -1,10 +1,8 @@
-section:nth-child(even) {
+section:nth-of-type(2n)
+{
     background-color: fuchsia;
-}
-
-section:nth-child(even) h2 {
-    border: 15px solid blue;
-
+    border: 15px;
+    color: blue;
 }
 
 section p{
@@ -14,13 +12,14 @@ section{
     font-size: 24px;
 }
 
-section:nth-child(odd){
+section:nth-of-type(2n+1)
+{
     background-color: #ccc;
     border-bottom: 12px;
    
 }
 
-section:nth-child(odd)h2{
+section:nth-of-type(2n+1)h2{
     color: double crimson;
 }
 
@@ -37,12 +36,12 @@ dl dd{
     line-height: 2;
 }
 
-ol li:nth-child(3n){
+ol li::nth-of-type(2n+1){
     background-color: burlywood;
     padding-block: 15px;
 }
 
-ul li:nth-child(2n){
+ul li:nth-of-type(2n){
     background-color: lightgreen;
     padding-block: 15px;
 }
