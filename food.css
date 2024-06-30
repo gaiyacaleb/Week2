@@ -1,0 +1,110 @@
+section:nth-child(even) {
+    background-color: fuchsia;
+}
+
+section:nth-child(even) h2 {
+    border: 15px solid blue;
+
+}
+
+section p{
+    line-height: 2;
+}
+section{
+    font-size: 24px;
+}
+
+section:nth-child(odd){
+    background-color: #ccc;
+    border-bottom: 12px;
+   
+}
+
+section:nth-child(odd)h2{
+    color: double crimson;
+}
+
+dl {
+    color: white;
+    background-color: rgb(0, 0, 255);
+}
+dl dt{
+    background-color: grey;
+    padding: 20px;
+}
+
+dl dd{
+    line-height: 2;
+}
+
+ol li:nth-child(3n){
+    background-color: burlywood;
+    padding-block: 15px;
+}
+
+ul li:nth-child(2n){
+    background-color: lightgreen;
+    padding-block: 15px;
+}
+
+img[src^="http"]:not([src*="https://images.pexels.com/photos/6148977/pexels-photo-6148977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius:0 50px 0 50px;
+}
+img[src^="http"]:not([src*="https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius: 0 50px 0 50px;
+}
+img[src^="http"]:not([src*="https://images.pexels.com/photos/1314041/pexels-photo-1314041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius: 0 50px 0 50px;
+}
+img[src^="http"]:not([src*="https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius: 0 50px 0 50px;
+}
+img[src^="http"]:not([src*="https://images.pexels.com/photos/928251/pexels-photo-928251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius: 0 50px 0 50px;
+}
+img[src^="http"]:not([src*="https://images.pexels.com/photos/1313267/pexels-photo-1313267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]){
+    border-radius: 0 50px 0 50px;
+}
+img[src*="./Media/maize.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/yam.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/beans.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/eggs.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/milk.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+
+img[src*="./Media/cashew.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/broccoli.jpg" ]{
+    border-radius: 50px 0 50px 0;
+}
+
+img[src*="./Media/onions.jpg" ]{
+    border-radius: 50px 0 50px 0;
+}
+
+img[src*="./Media/vegetables.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+img[src*="./Media/meat.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+
+img[src*="./Media/apples.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+
+img[src*="./Media/oranges.jpg"]{
+    border-radius: 50px 0 50px 0;
+}
+
+
